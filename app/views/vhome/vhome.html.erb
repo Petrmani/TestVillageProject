@@ -1,0 +1,19 @@
+<div class="overview_title"> <h1>Village Overview</h1> </div>
+
+<div class="menu">Menu will be here</div>
+
+<div class="name_coords_resources">
+<div class="name_and_coords">Village Name: <%=@my_village.v_name%> Coordinates: <%=@my_village.coordinates%></div>
+<div class="resources">Wood: <%=@my_village.wood %> Clay: <%=@my_village.clay %>  Iron <%=@my_village.iron %> </div>
+ </div>
+
+<div class="village_overview"><ul>
+	<li>Farms: <%=@my_village.farm_level %></li>
+	<li>Wood Cutter's Lodge: <%= @my_village.wood_cutter %></li>
+	<li>Clay Pit: <%= @my_village.clay_pit %></li>
+	<li>Iron Mine: <%= @my_village.iron_mine %></li>
+
+
+</ul></div>
+
+<p><a href="http://localhost:3000/">Home Page</a></p>

@@ -1,0 +1,27 @@
+// Place all the styles related to the vhome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.overview_title{
+	text-align: center;
+}
+.menu{
+	text-align: center;
+	width:100%;
+	background-color: gray;
+}
+.name_and_coords{
+	margin-top: 2px;
+	float:left;
+	width: 50%;
+	background-color: gray;
+}
+.resources{
+	float:right;
+	width: 50%;
+	margin-top:2px;
+	background-color: red;
+}
+.name_coords_resources{
+	height:15px;
+}

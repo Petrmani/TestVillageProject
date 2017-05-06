@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Houses: 1
+  HQ: 1
+  woodcutter_lodge: 1
+
+two:
+  Houses: 1
+  HQ: 1
+  woodcutter_lodge: 1
